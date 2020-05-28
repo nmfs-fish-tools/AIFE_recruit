@@ -8,7 +8,7 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 **************
 
-## Project Desciption
+## Project Description
 
 
 ## Project Outline
@@ -16,8 +16,13 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 ## Project TODO's and milestones
 
-**************
 
+## References
+
+Rethinking forecasting: https://docs.google.com/document/d/1ob1zexI_558hzpEd12casTVtOsQnTnpEXCQmkaCy0z8/edit?usp=sharing
+
+
+**************
 
 
 
