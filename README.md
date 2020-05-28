@@ -16,7 +16,9 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 ## Project TODO's and milestones
 
+## Data sources
 
+EcoFOCI program - Bering Sea climate data and ichthyoplankton https://www.ecofoci.noaa.gov/data-links
 ## References
 
 Rethinking forecasting: https://docs.google.com/document/d/1ob1zexI_558hzpEd12casTVtOsQnTnpEXCQmkaCy0z8/edit?usp=sharing
