@@ -17,7 +17,7 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 ## Project TODO's and milestones
 
 ## Data sources
-
+RAM legacy database - https://zenodo.org/record/3676088#.Xl7943BRf3g
 EcoFOCI program - Bering Sea climate data and ichthyoplankton https://www.ecofoci.noaa.gov/data-links
 ## References
 
