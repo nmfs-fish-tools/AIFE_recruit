@@ -18,10 +18,14 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 ## Data sources
 RAM legacy database - https://zenodo.org/record/3676088#.Xl7943BRf3g
+
+Extracted recruitment time series - https://drive.google.com/open?id=1_9cBLjmFbKmAm6x5__GUGLIMiVYsnlEZ
+
 EcoFOCI program - Bering Sea climate data and ichthyoplankton https://www.ecofoci.noaa.gov/data-links
 ## References
 
 Rethinking forecasting: https://docs.google.com/document/d/1ob1zexI_558hzpEd12casTVtOsQnTnpEXCQmkaCy0z8/edit?usp=sharing
+
 
 
 **************
