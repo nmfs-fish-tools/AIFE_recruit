@@ -12,16 +12,34 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 
 ## Project Outline
+- Sort through RAM data sets
+- Decide on variables
+    - predator prey?
+- Do we want to poll species
+  -  use K-means clustering as its own possibility for relationshops between datasets
+  - look for shared trends
+- Environmental Data
+  - how to use
+
+- analysis and clean choice data sets
+- develop multiple models
+    - one for data pooling
+    - for comaprisons
+    - for rescruitment forecasting
+
 
 
 ## Project TODO's and milestones
 
 ## Data sources
-RAM legacy database - https://zenodo.org/record/3676088#.Xl7943BRf3g
 
-Extracted recruitment time series - https://drive.google.com/open?id=1_9cBLjmFbKmAm6x5__GUGLIMiVYsnlEZ
+- RAM legacy database - https://zenodo.org/record/3676088#.Xl7943BRf3g
 
-EcoFOCI program - Bering Sea climate data and ichthyoplankton https://www.ecofoci.noaa.gov/data-links
+- Extracted recruitment time series - https://drive.google.com/open?id=1_9cBLjmFbKmAm6x5__GUGLIMiVYsnlEZ
+
+- EcoFOCI program - Bering Sea climate data and ichthyoplankton https://www.ecofoci.noaa.gov/data-links
+
+
 ## References
 
 Rethinking forecasting: https://docs.google.com/document/d/1ob1zexI_558hzpEd12casTVtOsQnTnpEXCQmkaCy0z8/edit?usp=sharing
