@@ -15,7 +15,7 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 ## Project Outline
 
 1.  Data Inputs
-- further focus data tupes and sets from data sources below
+- further focus data types and sets from data sources below
 2.  Data Prep and Inital Analysis
 - possible ML algorithms for clustering within this seciton
 3. Data Viz from previous
