@@ -9,9 +9,25 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 **************
 
 ## Project Description
-
+1. Questions to study
+2.  Approach
 
 ## Project Outline
+
+1.  Data Inputs
+- further focus data tupes and sets from data sources below
+2.  Data Prep and Inital Analysis
+- possible ML algorithms for clustering within this seciton
+3. Data Viz from previous
+4.  Test vs Scoring Data Set Choices
+5.  Modeling
+6.  Scoreing Model
+7. Evaluation of Models
+8. Reporting
+
+
+
+## Notes to lead to Outline
 - Sort through RAM data sets
 - Decide on variables
     - predator prey?
