@@ -33,9 +33,13 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
     - predator prey?
 - Do we want to poll species
   -  use K-means clustering as its own possibility for relationshops between datasets
+  (other clustering algs: https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
   - look for shared trends
 - Environmental Data
   - how to use
+- Time Series issues:
+  - https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
+  - use a step to cluster time seies such as Kendall Seasonal trend analysis or similar
 
 - analysis and clean choice data sets
 - develop multiple models
