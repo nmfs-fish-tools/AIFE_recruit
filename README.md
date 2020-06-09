@@ -39,6 +39,7 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
   - how to use
 - Time Series issues:
   - https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
+  - https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/
   - use a step to cluster time series such as Kendall Seasonal trend analysis or similar
 
 - analysis and clean choice data sets
