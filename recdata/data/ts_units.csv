@@ -1,0 +1,419 @@
+tscategory,tsshort,tslong,tsunitsshort,tsunitslong,tsunique
+OTHER TIME SERIES DATA,AQ,Aquaculture,MT,metric tons,AQ-MT
+OTHER TIME SERIES DATA,ASP,Annual surplus production,MT,Metric tons,ASP-MT
+TOTAL BIOMASS,BdivBmgtpref,"General biomass time series preferentially relative to management target, otherwise MSY-BRP (BdivBmgttouse, otherwise BdivBmsytouse)",dimensionless,dimensionless,BdivBmgtpref-dimensionless
+TOTAL BIOMASS,BdivBmgttouse,"General biomass time series relative to management target (TB/TBmgt, or SSB/SSBmgt otherwise)",dimensionless,dimensionless,BdivBmgttouse-dimensionless
+TOTAL BIOMASS,BdivBmsypref,"General biomass time series preferentially relative to MSY-BRP, otherwise management target (BdivBmsytouse, otherwise BdivBmgttouse)",dimensionless,dimensionless,BdivBmsypref-dimensionless
+TOTAL BIOMASS,BdivBmsytouse,"General biomass time series relative to msy reference point (TB/TBmsy, or SSB/SSBmsy otherwise)",dimensionless,dimensionless,BdivBmsytouse-dimensionless
+OTHER TIME SERIES DATA,BYCAT,Industrial bycatch,MT,Metric tons,BYCAT-MT
+CATCH or LANDINGS,Cadvised,Scientific advice for catch limit (pairs with Cpair and TAC),MT,Metric tons,Cadvised-MT
+CATCH or LANDINGS,CdivMEANC,Catch divided by mean catch,ratio,ratio,CdivMEANC-ratio
+CATCH or LANDINGS,CdivMSY-conv,Catch divided by MSY calculated from converted reference points,ratio,ratio,CdivMSY-conv-ratio
+CATCH or LANDINGS,CdivMSY-est,Catch divided by MSY calculated from model-estimated reference points,ratio,ratio,CdivMSY-est-ratio
+CATCH or LANDINGS,CdivMSY-mvo,Catch divided by model version only MSY,ratio,ratio,CdivMSY-mvo-ratio
+CATCH or LANDINGS,CdivMSY,Catch divided by MSY,ratio,ratio,CdivMSY-ratio
+CATCH or LANDINGS,Cpair,Catch or landings that is paired with TAC,E00,Individuals,Cpair-E00
+CATCH or LANDINGS,Cpair,Catch or landings that is paired with TAC,MT,Metric tons,Cpair-MT
+SPAWNING STOCK BIOMASS or CPUE,CPUE-1,CPUE alternate,E00/tow,No. per tow,CPUE-1-E00/tow
+SPAWNING STOCK BIOMASS or CPUE,CPUE-1,CPUE,E00/trap,No. per trap,CPUE-1-E00/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-1,CPUE,index,index,CPUE-1-index
+SPAWNING STOCK BIOMASS or CPUE,CPUE-1,CPUE,kg/day,kg per day,CPUE-1-kg/day
+SPAWNING STOCK BIOMASS or CPUE,CPUE-1,CPUE,kg/hour,kg per hour,CPUE-1-kg/hour
+SPAWNING STOCK BIOMASS or CPUE,CPUE-2,CPUE alternate,E00/tow,No. per tow,CPUE-2-E00/tow
+SPAWNING STOCK BIOMASS or CPUE,CPUE-2,CPUE,E00/trap,No. per trap,CPUE-2-E00/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-2,CPUE,index,index,CPUE-2-index
+SPAWNING STOCK BIOMASS or CPUE,CPUE-2,CPUE,kg/day,kg per day,CPUE-2-kg/day
+SPAWNING STOCK BIOMASS or CPUE,CPUE-2,CPUE,kg/hour,kg per hour,CPUE-2-kg/hour
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A10,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A10-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A1,CPUE in subarea,E00/trap,No. per trap,CPUE-A1-E00/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A1,CPUE in subarea,index,index,CPUE-A1-index
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A1,CPUE in subarea,kg/hmdw,kg per hour and meter of dredge width,CPUE-A1-kg/hmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A1,Catch per unit effort in subarea,kg/hour,kg per hour,CPUE-A1-kg/hour
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A1,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A1-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A1,CPUE in subarea,kg/trap,kg per trap,CPUE-A1-kg/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A1,CPUE in subarea,kg/traphaul,kg per traphaul,CPUE-A1-kg/traphaul
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A2,CPUE in subarea,E00/trap,No. per trap,CPUE-A2-E00/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A2,CPUE in subarea,index,index,CPUE-A2-index
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A2,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A2-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A2,Catch per unit effort in subarea,kg/trap,kg per trap,CPUE-A2-kg/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A2,CPUE in subarea,kg/traphaul,kg per traphaul,CPUE-A2-kg/traphaul
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A3,CPUE in subarea,E00/trap,No. per trap,CPUE-A3-E00/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A3,CPUE in subarea,index,index,CPUE-A3-index
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A3,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A3-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A3,CPUE in subarea,kg/trap,kg per trap,CPUE-A3-kg/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A3,CPUE in subarea,kg/traphaul,kg per traphaul,CPUE-A3-kg/traphaul
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A4,CPUE in subarea,E00/trap,No. per trap,CPUE-A4-E00/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A4,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A4-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A4,CPUE in subarea,kg/trap,kg per trap,CPUE-A4-kg/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A4,CPUE in subarea,kg/traphaul,kg per traphaul,CPUE-A4-kg/traphaul
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A5,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A5-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A5,CPUE in subarea,kg/trap,kg per trap,CPUE-A5-kg/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A5,CPUE in subarea,kg/traphaul,kg per traphaul,CPUE-A5-kg/traphaul
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A6,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A6-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A7,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A7-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A8,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A8-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE-A9,CPUE in subarea,kg/tmdw,kg per tow 1 m dredge width,CPUE-A9-kg/tmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,E00/tow,No. per tow,CPUE-E00/tow
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,E00/trap,No. per trap,CPUE-E00/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,fishperE03hooks,Fish per 1000 hooks,CPUE-fishperE03hooks
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,fishpernet,Fish per net,CPUE-fishpernet
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,g/m2,grams per meter squared,CPUE-g/m2
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,index,index,CPUE-index
+SPAWNING STOCK BIOMASS or CPUE,CPUE,Catch per unit effort,kg/day,kg per day,CPUE-kg/day
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,kg/hm,kg per hm,CPUE-kg/hm
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,kg/hmdw,kg per hour and meter of dredge width,CPUE-kg/hmdw
+SPAWNING STOCK BIOMASS or CPUE,CPUE,Catch per unit effort,kg/hour,kg per hour,CPUE-kg/hour
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,kg/potlift,kg per potlift,CPUE-kg/potlift
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,kg/trap,kg per trap,CPUE-kg/trap
+SPAWNING STOCK BIOMASS or CPUE,CPUE,Catch per unit effort,kg/trip,kg per trip,CPUE-kg/trip
+SPAWNING STOCK BIOMASS or CPUE,CPUE,Survey index,kgpertow,kg per tow,CPUE-kgpertow
+SPAWNING STOCK BIOMASS or CPUE,CPUE,Catch per unit effort,MT,Metric tons,CPUE-MT
+SPAWNING STOCK BIOMASS or CPUE,CPUE,Catch per unit effort,MT/day,MT per day,CPUE-MT/day
+SPAWNING STOCK BIOMASS or CPUE,CPUE,CPUE,MT/hr,MT per hour,CPUE-MT/hour
+SPAWNING STOCK BIOMASS or CPUE,CPUEraw-1,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEraw-1-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEraw-2,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEraw-2-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEraw-3,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEraw-3-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEraw-4,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEraw-4-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEraw-5,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEraw-5-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEraw-6,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEraw-6-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEraw,Raw CPUE for spawners. Use if CPUEstand is not available.,C/E,catch/effort,CPUEraw-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEsmooth,Smoothed survey index,E00pertow,Number per tow,CPUEsmooth-E00pertow
+SPAWNING STOCK BIOMASS or CPUE,CPUEsmooth,Smoothed survey index,kgpertow,kg per tow,CPUEsmooth-kgpertow
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-1,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEstand-1-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-2,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEstand-2-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-3,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEstand-3-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-4,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEstand-4-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-5,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEstand-5-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-6,Standardized CPUE for spawners. Use only when there is more than 1 CPUE series,C/E,catch/effort,CPUEstand-6-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand,Standardized CPUE for spawners. Use CPUE if SSB not available.,C/E,catch/effort,CPUEstand-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-FL1,Standardized CPUE for spawners for fleet 1,C/E,catch/effort,CPUEstand-FL1-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-FL2,Standardized CPUE for spawners for fleet 2,C/E,catch/effort,CPUEstand-FL2-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-FL3,Standardized CPUE for spawners for fleet 3,C/E,catch/effort,CPUEstand-FL3-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-FL4,Standardized CPUE for spawners for fleet 4,C/E,catch/effort,CPUEstand-FL4-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-FL5,Standardized CPUE for spawners for fleet 5,C/E,catch/effort,CPUEstand-FL5-C/E
+SPAWNING STOCK BIOMASS or CPUE,CPUEstand-FL6,Standardized CPUE for spawners for fleet 6,C/E,catch/effort,CPUEstand-FL6-C/E
+CATCH or LANDINGS,CUSTC,Customary catch,MT,Metric tons,CUSTC-MT
+OTHER TIME SERIES DATA,DIS-1,Discards time series,MT,Metric tons,DIS-1-MT
+OTHER TIME SERIES DATA,DIS-2,Discards time series,MT,Metric tons,DIS-2-MT
+OTHER TIME SERIES DATA,DiscC,Discards time series,MT,Metric tons,DiscC-MT
+OTHER TIME SERIES DATA,DIS,Discards time series,E03MT,Thousands of metric tons,DIS-E03MT
+OTHER TIME SERIES DATA,DIS,Discards time series,MT,Metric tons,DIS-MT
+TOTAL BIOMASS,EB,Exploitable biomass,MT,Metric tons,EB-MT
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort for subarea,hour,hour,EFFORT-A1-hour
+OTHER TIME SERIES DATA,EFFORT-A1,Fishing effort in subarea,traphauls,trap hauls,EFFORT-A1-traphauls
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort for subarea,hour,hour,EFFORT-A2-hour
+OTHER TIME SERIES DATA,EFFORT-A2,Fishing effort in subarea,traphauls,trap hauls,EFFORT-A2-traphauls
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort for subarea,hour,hour,EFFORT-A3-hour
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,day,day,EFFORT-day
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,hm,hours by gear width meter,EFFORT-hm
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,hour,hour,EFFORT-hour
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,hour/md,hour per m dredge,EFFORT-hour/md
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,hour/mdw,hour per meter dredge width,EFFORT-hour/mdw
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,m2,meters squared,EFFORT-m2
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,nominal,nominal,EFFORT-nominal
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,potlift,potlift,EFFORT-potlift
+OTHER TIME SERIES DATA,EFFORT,Fishing effort,traphauls,trap hauls,EFFORT-traphauls
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,trips,trips,EFFORT-trips
+OTHER TIME SERIES DATA,EFFORT,Fishing Effort,vtw,vessel-ton-weeks,EFFORT-vtw
+FISHING MORTALITY,EI,Exploitation index (3rd choice - use this if ER and percentSPR not available),ratio,catch biomass/survey biomass,EI-ratio
+FISHING MORTALITY,ER-1,Exploitation Rate (2nd choice - use if F not available). Catch / Total Biomass,ratio,catch/biomass,ER-1-ratio
+FISHING MORTALITY,ER-2,Exploitation Rate (2nd choice - use if F not available). Catch / Total Biomass,ratio,catch/biomass,ER-2-ratio
+FISHING MORTALITY,ER-3,Exploitation Rate (2nd choice - use if F not available). Catch / Total Biomass,ratio,catch/biomass,ER-3-ratio
+FISHING MORTALITY,ER-4,Exploitation Rate (2nd choice - use if F not available). Catch / Total Biomass,ratio,catch/biomass,ER-4-ratio
+FISHING MORTALITY,ER-5,Exploitation Rate (2nd choice - use if F not available). Catch / Total Biomass,ratio,catch/biomass,ER-5-ratio
+FISHING MORTALITY,ER-6,Exploitation Rate (2nd choice - use if F not available). Catch / Total Biomass,ratio,catch/biomass,ER-6-ratio
+FISHING MORTALITY,ERbest,General  exploitation rate time series,ratio,ratio,ERbest-ratio
+FISHING MORTALITY,ER-calc,Exploitation Rate calculated from assessment total biomass and total catch or landings,ratio,ratio,ER-calc-ratio
+FISHING MORTALITY,ERdivERmgt-calc,Calculated from ER time series and ER management target,dimensionless,dimensionless,ERdivERmgt-calc-dimensionless
+FISHING MORTALITY,ERdivERmgt,Exploitation rate relative to ER management target,dimensionless,dimensionless,ERdivERmgt-dimensionless
+FISHING MORTALITY,ERdivERmsy-calc,Calculated from ER-ratio time series and assessment ERmsy,dimensionless,dimensionless,ERdivERmsy-calc-dimensionless
+FISHING MORTALITY,ERdivERmsy-conv,Calculated from ER-ratio time series and converted ERmsy,dimensionless,dimensionless,ERdivERmsy-conv-dimensionless
+FISHING MORTALITY,ERdivERmsy,ER/ERmsy,dimensionless,dimensionless,ERdivERmsy-dimensionless
+FISHING MORTALITY,ERdivERmsy-est,Calculated from ER-ratio time series and Fox estimated ERmsy,dimensionless,dimensionless,ERdivERmsy-est-dimensionless
+FISHING MORTALITY,ERdivERmsy-scaled,Calculated from ER-ratio time series and scaled ERmsy,dimensionless,dimensionless,ERdivERmsy-scaled-dimensionless
+FISHING MORTALITY,ER-FL1,Exploitation Rate for fleet 1,ratio,catch/biomass,ER-FL1-ratio
+FISHING MORTALITY,ER-FL2,Exploitation Rate for fleet 2,ratio,catch/biomass,ER-FL2-ratio
+FISHING MORTALITY,ER-FL3,Exploitation Rate for fleet 3,ratio,catch/biomass,ER-FL3-ratio
+FISHING MORTALITY,ER-FL4,Exploitation Rate for fleet 4,ratio,catch/biomass,ER-FL4-ratio
+FISHING MORTALITY,ER-FL5,Exploitation Rate for fleet 5,ratio,catch/biomass,ER-FL5-ratio
+FISHING MORTALITY,ER-FL6,Exploitation Rate for fleet 6,ratio,catch/biomass,ER-FL6-ratio
+FISHING MORTALITY,ER,Exploitation Rate,index,index,ER-index
+FISHING MORTALITY,ER,Exploitation Rate (2nd choice - use if F not available). Catch / Total Biomass,none,none,ER-none
+FISHING MORTALITY,ER,Exploitation Rate (2nd choice - use if F not available). Catch / Total Biomass,ratio,catch/biomass,ER-ratio
+FISHING MORTALITY,ER,Exploitation Rate (2nd choice - use if F not available). Catch / Total Biomass,relative,relative,ER-relative
+OTHER TIME SERIES DATA,F/Z,Fishing Effort Over Total Mortality,dimensionless,dimensionless,F/Z-dimensionless
+FISHING MORTALITY,F_MSY,Fishing mortality that yields MSY,1/yr,1/yr,F_MSY-1/yr
+FISHING MORTALITY,F-0,Fishing mortality. Use only when there is more than 1 'final' model.,1/T,NA,F-0-1/T
+FISHING MORTALITY,F,Fishing mortality (preferred metric).,1/T,NA,F-1/T
+FISHING MORTALITY,F,Fishing mortality (preferred metric).,1/yr,NA,F-1/yr
+FISHING MORTALITY,F,Fishing mortality (preferred metric).,1/yr-a1,"per year, age 1",F-1/yr-a1
+FISHING MORTALITY,F,Fishing mortality (preferred metric).,1/yr-a5,"per year, age 5",F-1/yr-a5
+FISHING MORTALITY,F-1,Fishing mortality. Use only when there is more than 1 'final' model.,1/T,NA,F-1-1/T
+FISHING MORTALITY,F-1,Fishing Effort alternative,1/yr,1/yr,F-1-1/yr
+FISHING MORTALITY,F-2,Fishing mortality. Use only when there is more than 1 'final' model.,1/T,NA,F-2-1/T
+FISHING MORTALITY,F-2,Fishing Effort alternative,1/yr,1/yr,F-2-1/yr
+FISHING MORTALITY,F-3,Fishing mortality. Use only when there is more than 1 'final' model.,1/T,NA,F-3-1/T
+FISHING MORTALITY,F,Fishing mortality (preferred metric).,1/yr,1/yr,F-3-1/yr
+FISHING MORTALITY,F-4,Fishing mortality. Use only when there is more than 1 'final' model.,1/T,NA,F-4-1/T
+FISHING MORTALITY,F,Fishing mortality (preferred metric).,1/yr,1/yr,F-4-1/yr
+FISHING MORTALITY,F-5,Fishing mortality. Use only when there is more than 1 'final' model.,1/T,NA,F-5-1/T
+FISHING MORTALITY,F-6,Fishing mortality. Use only when there is more than 1 'final' model.,1/T,NA,F-6-1/T
+FISHING MORTALITY,F-7,Fishing mortality. Use only when there is more than 1 'final' model.,1/T,NA,F-7-1/T
+FISHING MORTALITY,F-8,Fishing mortality. Use only when there is more than 1 'final' model.,1/T,NA,F-8-1/T
+FISHING MORTALITY,Fa3p,"Fishing mortality (average, age 3+)",1/T,per unit time,Fa3p-1/T
+FISHING MORTALITY,F-B-weighted,Fishing mortality,1/T,NA,F-B-weighted-1/T
+FISHING MORTALITY,FdivFmgt-calc,Calculated from F time series and F management target,dimensionless,dimensionless,FdivFmgt-calc-dimensionless
+FISHING MORTALITY,FdivFmgt,Fishing mortality relative to F management target,dimensionless,dimensionless,FdivFmgt-dimensionless
+FISHING MORTALITY,FdivFmsy-calc,Calculated from F-1/yr time series and assessment Fmsy,dimensionless,dimensionless,FdivFmsy-calc-dimensionless
+FISHING MORTALITY,FdivFmsy-conv,Calculated from F-1/yr time series and converted Fmsy,dimensionless,dimensionless,FdivFmsy-conv-dimensionless
+FISHING MORTALITY,FdivFmsy,F/Fmsy,dimensionless,dimensionless,FdivFmsy-dimensionless
+FISHING MORTALITY,F-female,Fishing mortality for females.,1/yr,per year,F-female-1/yr
+FISHING MORTALITY,F-FY1,Fishing mortality for fishery 1,1/yr,1/yr,F-FY1-1/yr
+FISHING MORTALITY,F-FY2,Fishing mortality for fishery 2,1/yr,1/yr,F-FY2-1/yr
+FISHING MORTALITY,F-FY3,Fishing mortality for fishery 3,1/yr,1/yr,F-FY3-1/yr
+FISHING MORTALITY,F,Fishing mortality (preferred metric).,index,index,F-index
+FISHING MORTALITY,F-male,Fishing mortality for males.,1/yr,per year,F-male-1/yr
+FISHING MORTALITY,F-N-weighted,Fishing mortality,1/T,NA,F-N-weighted-1/T
+FISHING MORTALITY,F,Fishing mortality (preferred metric).,relative,relative,F-relative
+FISHING MORTALITY,F-unweighted,Fishing mortality,1/T,NA,F-unweighted-1/T
+FISHING MORTALITY,Fwa,Fishing mortality (weighted average),1/T,per unit time,Fwa-1/T
+SPAWNING STOCK BIOMASS or CPUE,gillnetCPUE,Gillnet CPUE,E00pertow,Number per tow,gillnetCPUE-E00pertow
+CATCH or LANDINGS,ILLC,Illegal catch,MT,Metric tons,ILLC-MT
+SPAWNING STOCK BIOMASS or CPUE,longlineCPUE,Longline CPUE,E00pertow,Number per tow,longlineCPUE-E00pertow
+OTHER TIME SERIES DATA,M,Natural mortality (1 value per year),1/T,per unit time,M-1/T
+OTHER TIME SERIES DATA,M-1,Natural mortality (1 value per year),1/T,per unit time,M-1-1/T
+OTHER TIME SERIES DATA,M-2,Natural mortality (1 value per year),1/T,per unit time,M-2-1/T
+TOTAL BIOMASS,MB,Mean biomass,MT,Metric tons,MB-MT
+PRODUCTION,PR,Production,E04fish/MT,Tens of Thousands of fish per ton,PR-E04fish/MT
+PRODUCTION,PR,Production,fish/g,fish per g,PR-fish/g
+PRODUCTION,PR,Production,fish/kg,fish per kg,PR-fish/kg
+PRODUCTION,PR,Production,fish/MT,fish per ton,PR-fish/MT
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-1,Recruits. Use only when there is more than 1 'final' model.,E00,Individuals,R-1-E00
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-1,Recruits. Use only when there is more than 1 'final' model.,E03,Individuals,R-1-E03
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-2,Recruits. Use only when there is more than 1 'final' model.,E00,Individuals,R-2-E00
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-2,Recruits. Use only when there is more than 1 'final' model.,E03,Individuals,R-2-E03
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-3,Recruits. Use only when there is more than 1 'final' model.,E00,Individuals,R-3-E00
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-3,Recruits. Use only when there is more than 1 'final' model.,E03,Individuals,R-3-E03
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-4,Recruits. Use only when there is more than 1 'final' model.,E00,Individuals,R-4-E00
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-4,Recruits. Use only when there is more than 1 'final' model.,E03,Individuals,R-4-E03
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-A1,Recruits in subarea,E00,Individuals,R-A1-E00
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-A2,Recruits in subarea,E00,Individuals,R-A2-E00
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R-A3,Recruits in subarea,E00,Individuals,R-A3-E00
+TOTAL BIOMASS,RBdivRBmsy,Reference biomass time series relative to reference Bmsy,dimensionless,dimensionless,RBdivRBmsy-dimensionless
+TOTAL BIOMASS,RBdivRBref,Reference biomass time series relative to reference biomass value,dimensionless,dimensionless,RBdivRBref-dimensionless
+TOTAL BIOMASS,RB,Reference biomass,MT,Metric tons,RB-MT
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E00,Individuals,R-E00
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E00fry,Number of fry,R-E00fry
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E00perhour,Numbers per Hour,R-E00perhour
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E00pertow,Numbers per Tow,R-E00pertow
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E02fry,Hundreds of fry,R-E02fry
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E03,Thousands,R-E03
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E03MT,Thousands of metric tons,R-E03MT
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E03pertow,Thousands per Tow,R-E03pertow
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E03smolt,Thousands of smolt,R-E03smolt
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E04,Tens of Thousands,R-E04
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E06,Millions,R-E06
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E06fry,Millions of fry,R-E06fry
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E07,Tens of Millions,R-E07
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E09,Billions,R-E09
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,E12,Trillions,R-E12
+CATCH or LANDINGS,RecC,Recreational catch,E00,Individuals,RecC-E00
+CATCH or LANDINGS,RecC,Recreational catch,MT,Metric tons,RecC-MT
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),RH,Estimated number of recruits from hatcheries (cultured fish from eggs),E00,Individuals,RH-E00
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,index,index,R-index
+OTHER TIME SERIES DATA,RL,Release,E00,individuals,RL-E00
+OTHER TIME SERIES DATA,RL,Release,E03,thousands,RL-E03
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,MT,Metric tons,R-MT
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,p/mf,pups per mature female,R-p/mf
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),R,Recruits,relative,relative,R-relative
+RECRUITS (NOTE: RECRUITS ARE OFFSET IN TIME SERIES BY THE AGE OF RECRUITMENT),RYCS,Relative year class strength,%,Percentage,RYCS-%
+SPAWNING STOCK BIOMASS or CPUE,SPR,Spawning Potential Ratio,ratio,ratio,SPR-ratio
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,index,index,SSB-1-index
+SPAWNING STOCK BIOMASS or CPUE,SSB-1,Spawning Stock Biomass. Use only when there is more than 1 'final' model.,MT,Metric tons,SSB-1-MT
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,index,index,SSB-2-index
+SPAWNING STOCK BIOMASS or CPUE,SSB-2,Spawning Stock Biomass. Use only when there is more than 1 'final' model.,MT,Metric tons,SSB-2-MT
+SPAWNING STOCK BIOMASS or CPUE,SSB-3,Spawning Stock Biomass. Use only when there is more than 1 'final' model.,MT,Metric tons,SSB-3-MT
+SPAWNING STOCK BIOMASS or CPUE,SSB-4,Spawning Stock Biomass. Use only when there is more than 1 'final' model.,MT,Metric tons,SSB-4-MT
+SPAWNING STOCK BIOMASS or CPUE,SSB-A1,Spawning Stock Biomass in subarea,MT,Metric tons,SSB-A1-MT
+SPAWNING STOCK BIOMASS or CPUE,SSB-A2,Spawning Stock Biomass in subarea,MT,Metric tons,SSB-A2-MT
+SPAWNING STOCK BIOMASS or CPUE,SSB-A3,Spawning Stock Biomass in subarea,MT,Metric tons,SSB-A3-MT
+TOTAL BIOMASS,SSBdivSSBmgt-calc,Calculated from SSB time series and SSB management target,dimensionless,dimensionless,SSBdivSSBmgt-calc-dimensionless
+TOTAL BIOMASS,SSBdivSSBmgt,Spawning stock biomass relative to SSB management target,dimensionless,dimensionless,SSBdivSSBmgt-dimensionless
+SPAWNING STOCK BIOMASS or CPUE,SSBdivSSBmsy-calc,Calculated from SSB time series and assessment SSBmsy (or Bmsy),dimensionless,dimensionless,SSBdivSSBmsy-calc-dimensionless
+SPAWNING STOCK BIOMASS or CPUE,SSBdivSSBmsy-conv,Calculated from SSB time series and converted SSBmsy,dimensionless,dimensionless,SSBdivSSBmsy-conv-dimensionless
+SPAWNING STOCK BIOMASS or CPUE,SSBdivSSBmsy,SSB/SSBmsy,dimensionless,dimensionless,SSBdivSSBmsy-dimensionless
+SPAWNING STOCK BIOMASS or CPUE,SSBdivSSBmsy-est,Calculated from SSB time series and Fox estimated SSBmsy (or Bmsy),dimensionless,dimensionless,SSBdivSSBmsy-est-dimensionless
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E00,Individuals,SSB-E00
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E00eggs,Number of eggs produced,SSB-E00eggs
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E00larvae,larvae,SSB-E00larvae
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E00lbs,Pounds,SSB-E00lbs
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E00pertow,Numbers per Tow,SSB-E00pertow
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E00pups,pups,SSB-E00pups
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E03,Thousands,SSB-E03
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E03eggs,Thousands of eggs produced,SSB-E03eggs
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E03MT,Thousands of metric tons,SSB-E03MT
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E03pertow,Thousands per Tow,SSB-E03pertow
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E03relative,relative,SSB-E03relative
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E05MT,Tens of thousand of metric tons,SSB-E05MT
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E06eggs,Millions of eggs produced,SSB-E06eggs
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E06larvae,Millions of larvae produced,SSB-E06larvae
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E06MT,Millions of metric tons,SSB-E06MT
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E08eggs,Hundreds of millions of eggs produced,SSB-E08eggs
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E09eggs,Trillions of eggs produced,SSB-E09eggs
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,E12eggs,Trillions of eggs produced,SSB-E12eggs
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,FemaleGonadMT,Female Gonad Weight in metric tons,SSB-FemaleGonadMT
+SPAWNING STOCK BIOMASS or CPUE,SSBf,Spawning Stock Biomass (female),MT,Metric tons,SSBf-MT
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,index,index,SSB-index
+SPAWNING STOCK BIOMASS or CPUE,SSBm,Spawning Stock Biomass (male),MT,Metric tons,SSBm-MT
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,MT,Metric tons,SSB-MT
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning stock biomass,ratio,ratio,SSB-ratio
+SPAWNING STOCK BIOMASS or CPUE,SSB,Spawning Stock Biomass,relative,relative,SSB-relative
+SPAWNING STOCK BIOMASS or CPUE,SSB-STDDEV,Standard deviation of spawning Stock Biomass,MT,Metric tons,SSB-STDDEV-MT
+SPAWNING STOCK BIOMASS or CPUE,SSF,Spawning Stock Fecundity,E00,Individuals,SSF-E00
+TOTAL BIOMASS,STB1+,Summary total biomass age 1+,MT,Metric tons,STB1+-MT
+TOTAL BIOMASS,STB2+,Summary total biomass age 2+,MT,Metric tons,STB2+-MT
+TOTAL BIOMASS,STB3+,Summary total biomass age 3+,MT,Metric tons,STB3+-MT
+TOTAL BIOMASS,STB,Summary total biomass.,MT,Metric tons,STB-MT
+OTHER TIME SERIES DATA,survB-10,Alternate fishery-independent survey abundance,MT,metric tons,survB-10-MT
+OTHER TIME SERIES DATA,survB-11,Alternate fishery-independent survey abundance,MT,metric tons,survB-11-MT
+OTHER TIME SERIES DATA,survB-1,Alternate fishery-independent survey abundance,E00,Individuals,survB-1-E00
+OTHER TIME SERIES DATA,survB-1,Alternate fishery-independent survey abundance,E00/tow,No. per tow,survB-1-E00/tow
+OTHER TIME SERIES DATA,survB-1,Alternate fishery-independent survey abundance,fishperE02hooks,fish per 100 hooks,survB-1-fishperE02hooks
+OTHER TIME SERIES DATA,survB-1,Alternate fishery-independent survey abundance,kg/tow,kg per tow,survB-1-kg/tow
+OTHER TIME SERIES DATA,survB-1,Alternate fishery-independent survey abundance,MT,Metric tons,survB-1-MT
+OTHER TIME SERIES DATA,survB-2,Alternate fishery-independent survey abundance,E00,Individuals,survB-2-E00
+OTHER TIME SERIES DATA,survB-2,Alternate fishery-independent survey abundance,fishperE02hooks,fish per 100 hooks,survB-2-fishperE02hooks
+OTHER TIME SERIES DATA,survB-2,Alternate fishery-independent survey abundance,kg/tow,kg per tow,survB-2-kg/tow
+OTHER TIME SERIES DATA,survB-2,Alternate fishery-independent survey abundance,MT,Metric tons,survB-2-MT
+OTHER TIME SERIES DATA,survB-3,Alternate fishery-independent survey abundance,E00,Individuals,survB-3-E00
+OTHER TIME SERIES DATA,survB-3,Alternate fishery-independent survey abundance,fishperE02hooks,fish per 100 hooks,survB-3-fishperE02hooks
+OTHER TIME SERIES DATA,survB-3,Alternate fishery-independent survey abundance,MT,metric tons,survB-3-MT
+OTHER TIME SERIES DATA,survB-4,Alternate fishery-independent survey abundance,E00,Individuals,survB-4-E00
+OTHER TIME SERIES DATA,survB-4,Alternate fishery-independent survey abundance,MT,metric tons,survB-4-MT
+OTHER TIME SERIES DATA,survB-5,Alternate fishery-independent survey abundance,E00,Individuals,survB-5-E00
+OTHER TIME SERIES DATA,survB-5,Alternate fishery-independent survey abundance,MT,metric tons,survB-5-MT
+OTHER TIME SERIES DATA,survB-6,Alternate fishery-independent survey abundance,E00,Individuals,survB-6-E00
+OTHER TIME SERIES DATA,survB-6,Alternate fishery-independent survey abundance,MT,metric tons,survB-6-MT
+OTHER TIME SERIES DATA,survB-7,Alternate fishery-independent survey abundance,E00,Individuals,survB-7-E00
+OTHER TIME SERIES DATA,survB-7,Alternate fishery-independent survey abundance,MT,metric tons,survB-7-MT
+OTHER TIME SERIES DATA,survB-8,Alternate fishery-independent survey abundance,E00,Individuals,survB-8-E00
+OTHER TIME SERIES DATA,survB-9,Alternate fishery-independent survey abundance,MT,metric tons,survB-9-MT
+OTHER TIME SERIES DATA,survB,Fishery-independent survey abundance,E00,Individuals,survB-E00
+OTHER TIME SERIES DATA,survB,Alternate fishery-independent survey abundance,E00/tow,No. per tow,survB-E00/tow
+OTHER TIME SERIES DATA,survB,Fishery-independent survey abundance,fishperE02hooks,fish per 100 hooks,survB-fishperE02hooks
+OTHER TIME SERIES DATA,survB,Fishery-independent survey abundance,kg/tow,kg per tow,survB-kg/tow
+OTHER TIME SERIES DATA,survB,Fishery-independent survey abundance,MT,metric tons,survB-MT
+OTHER TIME SERIES DATA,survRB-A1,Research survey abundance in subarea,fishperE03m2,fish per 1000 meters squared,survRB-A1-fishperE03m2
+OTHER TIME SERIES DATA,survRB-A2,Research survey abundance in subarea,fishperE03m2,fish per 1000 meters squared,survRB-A2-fishperE03m2
+OTHER TIME SERIES DATA,survRB-A3,Research survey abundance in subarea,fishperE03m2,fish per 1000 meters squared,survRB-A3-fishperE03m2
+OTHER TIME SERIES DATA,survRB-A4,Research survey abundance in subarea,fishperE03m2,fish per 1000 meters squared,survRB-A4-fishperE03m2
+OTHER TIME SERIES DATA,survRB-A5,Research survey abundance in subarea,fishperE03m2,fish per 1000 meters squared,survRB-A5-fishperE03m2
+OTHER TIME SERIES DATA,survRB-A6,Research survey abundance in subarea,fishperE03m2,fish per 1000 meters squared,survRB-A6-fishperE03m2
+OTHER TIME SERIES DATA,survRB-A7,Research survey abundance in subarea,fishperE03m2,fish per 1000 meters squared,survRB-A7-fishperE03m2
+OTHER TIME SERIES DATA,survRB-A8,Research survey abundance in subarea,fishperE03m2,fish per 1000 meters squared,survRB-A8-fishperE03m2
+CATCH or LANDINGS,TAC-A1,Total allowable catch In subarea,MT,Metric tons,TAC-A1-MT
+CATCH or LANDINGS,TAC-A2,Total allowable catch In subarea,MT,Metric tons,TAC-A2-MT
+CATCH or LANDINGS,TAC-A3,Total allowable catch In subarea,MT,Metric tons,TAC-A3-MT
+CATCH or LANDINGS,TAC-A4,Total allowable catch In subarea,MT,Metric tons,TAC-A4-MT
+CATCH or LANDINGS,TAC-A5,Total allowable catch In subarea,MT,Metric tons,TAC-A5-MT
+CATCH or LANDINGS,TAC,Total allowable catch,E00,Individuals,TAC-E00
+CATCH or LANDINGS,TAC-GA,Total allowable catch In area greater than that of stock,MT,Metric tons,TAC-GA-MT
+CATCH or LANDINGS,TAC,Total allowable catch,MT,Metric tons,TAC-MT
+TOTAL BIOMASS,TB,Total biomass,index,index,TB-1-index
+TOTAL BIOMASS,TB-1,Total biomass. Use only when there is more than 1 'final' model.,MT,Metric tons,TB-1-MT
+TOTAL BIOMASS,TB,Total biomass,index,index,TB-2-index
+TOTAL BIOMASS,TB-2,Total biomass. Use only when there is more than 1 'final' model.,MT,Metric tons,TB-2-MT
+TOTAL BIOMASS,TB-3,Total biomass. Use only when there is more than 1 'final' model.,MT,Metric tons,TB-3-MT
+TOTAL BIOMASS,TB-4,Total biomass. Use only when there is more than 1 'final' model.,MT,Metric tons,TB-4-MT
+TOTAL BIOMASS,TB-A1,Total biomass in subarea (or total exploitable biomass). Denoted on biometrics page,MT,Metric tons,TB-A1-MT
+TOTAL BIOMASS,TB-A2,Total biomass in subarea (or total exploitable biomass). Denoted on biometrics page,MT,Metric tons,TB-A2-MT
+TOTAL BIOMASS,TB-A3,Total biomass in subarea (or total exploitable biomass). Denoted on biometrics page,MT,Metric tons,TB-A3-MT
+TOTAL BIOMASS,TBbest,"General total biomass time series (TB then converted SSB, MT units only and scaled to TB)",MT,Metric tons,TBbest-MT
+TOTAL BIOMASS,TBdivTBmgt-calc,Calculated from TB time series and TB management target,dimensionless,dimensionless,TBdivTBmgt-calc-dimensionless
+TOTAL BIOMASS,TBdivTBmsy-calc,Calculated from TB time series and assessment TBmsy,dimensionless,dimensionless,TBdivTBmsy-calc-dimensionless
+TOTAL BIOMASS,TBdivTBmsy-conv,Calculated from TB time series and converted TBmsy,dimensionless,dimensionless,TBdivTBmsy-conv-dimensionless
+TOTAL BIOMASS,TBdivTBmsy,TB/TBmsy,dimensionless,dimensionless,TBdivTBmsy-dimensionless
+TOTAL BIOMASS,TBdivTBmsy-est,Calculated from TB time series and Fox estimated Bmsy,dimensionless,dimensionless,TBdivTBmsy-est-dimensionless
+TOTAL BIOMASS,TB,Total biomass (or total exploitable biomass). Denoted on biometrics page,E03MT,Thousands of metric tons,TB-E03MT
+TOTAL BIOMASS,TB,Total biomass (or total exploitable biomass). Denoted on biometrics page,index,index,TB-index
+TOTAL BIOMASS,TB,Total biomass (or total exploitable biomass). Denoted on biometrics page,MT,Metric tons,TB-MT
+TOTAL BIOMASS,TB,Total biomass (or total exploitable biomass). Denoted on biometrics page,MT-a4p,"Metric tons, age 4 plus",TB-MT-a4p
+TOTAL BIOMASS,TB-mwc,Total biomass in weight converted from abundance in numbers using mean weight,MT,Metric tons,TB-mwc-MT
+TOTAL BIOMASS,TB,Total biomass (or total exploitable biomass). Denoted on biometrics page,relative,relative,TB-relative
+CATCH or LANDINGS,TC-1,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E00,Individuals,TC-1-E00
+CATCH or LANDINGS,TC-1,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E03,Thousands,TC-1-E03
+CATCH or LANDINGS,TC-1,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E06,Millions,TC-1-E06
+CATCH or LANDINGS,TC-1,Total catch (i.e. landings + discards. Add landings + discards to get this).,MT,Metric tons,TC-1-MT
+CATCH or LANDINGS,TC-2,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E00,Individuals,TC-2-E00
+CATCH or LANDINGS,TC-2,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E03,Thousands,TC-2-E03
+CATCH or LANDINGS,TC-2,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E06,Millions,TC-2-E06
+CATCH or LANDINGS,TC-2,Total catch (i.e. landings + discards. Add landings + discards to get this).,MT,Metric tons,TC-2-MT
+CATCH or LANDINGS,TC-3,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E03,Thousands,TC-3-E03
+CATCH or LANDINGS,TC-3,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E06,Millions,TC-3-E06
+CATCH or LANDINGS,TC-3,Total catch (i.e. landings + discards. Add landings + discards to get this).,MT,Metric tons,TC-3-MT
+CATCH or LANDINGS,TC-4,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E03,Thousands,TC-4-E03
+CATCH or LANDINGS,TC-4,Total catch. Use only when there is more than 1 accepted 'total catch' time series,E06,Millions,TC-4-E06
+CATCH or LANDINGS,TC-A1,Total catch in subarea (i.e. landings + discards. Add landings + discards to get this).,MT,Metric tons,TC-A1-MT
+CATCH or LANDINGS,TC-A2,Total catch in subarea (i.e. landings + discards. Add landings + discards to get this).,MT,Metric tons,TC-A2-MT
+CATCH or LANDINGS,TC-A3,Total catch in subarea (i.e. landings + discards. Add landings + discards to get this).,MT,Metric tons,TC-A3-MT
+CATCH or LANDINGS,TCbest,"General total Catch (TC then TL, MT units only)",MT,Metric tons,TCbest-MT
+CATCH or LANDINGS,TC,Total catch (i.e. landings + discards. Add landings + discards to get this).,E00,Individuals,TC-E00
+CATCH or LANDINGS,TC,Total catch (i.e. landings + discards. Add landings + discards to get this).,E00lbs,pounds,TC-E00lbs
+CATCH or LANDINGS,TC,Total catch (i.e. landings + discards. Add landings + discards to get this).,E03,Thousands,TC-E03
+CATCH or LANDINGS,TC,Total catch (i.e. landings + discards. Add landings + discards to get this).,E03MT,Thousands of metric tons,TC-E03MT
+CATCH or LANDINGS,TC,Total catch (i.e. landings + discards. Add landings + discards to get this).,E06,Millions,TC-E06
+CATCH or LANDINGS,TC,Total catch (i.e. landings + discards. Add landings + discards to get this).,MT,Metric tons,TC-MT
+CATCH or LANDINGS,TC-mwc,Total catch in weight converted from catch in numbers using mean weight,MT,Metric tons,TC-mwc-MT
+FISHING MORTALITY,tERmsy,Exploitation rate at MSY time series,ratio,catch/biomass,tERmsy-ratio
+FISHING MORTALITY,tFmsy,Fishing mortality at MSY time series,1/yr,1/yr,tFmsy-1/yr
+CATCH or LANDINGS,TL-1,Total landings. Use only when there is more than 1 accepted 'total landings' time series,E03MT,Thousands of metric tons,TL-1-E03MT
+CATCH or LANDINGS,TL-1,Total landings. Use only when there is more than 1 accepted 'total landings' time series,MT,Metric tons,TL-1-MT
+CATCH or LANDINGS,TL-2,Total landings. Use only when there is more than 1 accepted 'total landings' time series,MT,Metric tons,TL-2-MT
+CATCH or LANDINGS,TL-3,Total landings. Use only when there is more than 1 accepted 'total landings' time series,MT,Metric tons,TL-3-MT
+CATCH or LANDINGS,TL-4,Total landings. Use only when there is more than 1 accepted 'total landings' time series,MT,Metric tons,TL-4-MT
+CATCH or LANDINGS,TL-A1,Total landings in subarea,MT,Metric tons,TL-A1-MT
+CATCH or LANDINGS,TL-A2,Total landings in subarea,MT,Metric tons,TL-A2-MT
+CATCH or LANDINGS,TL-A3,Total landings in subarea,MT,Metric tons,TL-A3-MT
+CATCH or LANDINGS,TL-A4,Total landings in subarea,MT,Metric tons,TL-A4-MT
+CATCH or LANDINGS,TL-A5,Total landings in subarea,MT,Metric tons,TL-A5-MT
+CATCH or LANDINGS,TL-CMB,"Total landings combined beyond just this stock (species, area, etc.)",MT,Metric tons,TL-CMB-MT
+CATCH or LANDINGS,TL,Total landings,E00,Individuals,TL-E00
+CATCH or LANDINGS,TL,Total landings,E00lbs,pounds,TL-E00lbs
+CATCH or LANDINGS,TL,Total landings,E03lbs,Thousands of pounds,TL-E03lbs
+CATCH or LANDINGS,TL,Total landings,E03MT,Thousands of metric tons,TL-E03MT
+CATCH or LANDINGS,TL,Total landings,E06,Millions,TL-E06
+CATCH or LANDINGS,TL,Total landings,E06MT,Millions of metric tons,TL-E06MT
+CATCH or LANDINGS,TL,Total landings,MT,Metric tons,TL-MT
+TOTAL BIOMASS,TN-1,Total abundance. Use only when there is more than 1 'final' model.,E00,Individuals,TN-1-E00
+TOTAL BIOMASS,TN-1,Total abundance. Use only when there is more than 1 'final' model.,E03,Thousands,TN-1-E03
+TOTAL BIOMASS,TN-2,Total abundance. Use only when there is more than 1 'final' model.,E00,Individuals,TN-2-E00
+TOTAL BIOMASS,TN-2,Total abundance. Use only when there is more than 1 'final' model.,E03,Thousands,TN-2-E03
+TOTAL BIOMASS,TN-A1,Total abundance in subarea. Use TN if TB is not available,E00,Individuals,TN-A1-E00
+TOTAL BIOMASS,TN-A1,Total abundance in subarea. Use TN if TB is not available,index,index,TN-A1-index
+TOTAL BIOMASS,TN-A2,Total abundance in subarea. Use TN if TB is not available,E00,Individuals,TN-A2-E00
+TOTAL BIOMASS,TN-A2,Total abundance in subarea. Use TN if TB is not available,index,index,TN-A2-index
+TOTAL BIOMASS,TN-A3,Total abundance in subarea. Use TN if TB is not available,E00,Individuals,TN-A3-E00
+TOTAL BIOMASS,TN-A3,Total abundance in subarea. Use TN if TB is not available,index,index,TN-A3-index
+TOTAL BIOMASS,TNdivTNmgt-calc,Calculated from TN time series and TN management target,dimensionless,dimensionless,TNdivTNmgt-calc-dimensionless
+TOTAL BIOMASS,TNdivTNmsy-calc,Calculated from TN time series and assessment TNmsy,dimensionless,dimensionless,TNdivTNmsy-calc-dimensionless
+TOTAL BIOMASS,TN,Total abundance. Use TN if TB is not available,E00,Individuals,TN-E00
+TOTAL BIOMASS,TN,Total abundance. Use TN if TB is not available,E03,Thousands,TN-E03
+TOTAL BIOMASS,TN,Total abundance. Use TN if TB is not available,E06,Millions,TN-E06
+TOTAL BIOMASS,TN,Total abundance. Use TN if TB is not available,index,index,TN-index
+TOTAL BIOMASS,TN,Total abundance,relative,relative,TN-relative
+SPAWNING STOCK BIOMASS or CPUE,towCPUE,Tow CPUE,E00pertow,Number per tow,towCPUE-E00pertow
+SPAWNING STOCK BIOMASS or CPUE,tSSBmsy,Spawning stock biomass at MSY time series,MT,Metric tons,tSSBmsy-MT
+FISHING MORTALITY,UdivUmgtpref,"General fishing mortality or exploitation rate time series preferentially relative to management target, otherwise MSY-BRP (UdivUmgttouse, otherwise UdivUmsytouse)",dimensionless,dimensionless,UdivUmgtpref-dimensionless
+FISHING MORTALITY,UdivUmgttouse,"General fishing mortality or exploitation rate time series relative to management target (F/Fmgt, or ER/ERmgt otherwise)",dimensionless,dimensionless,UdivUmgttouse-dimensionless
+FISHING MORTALITY,UdivUmsypref,"General fishing mortality or exploitation rate time series preferentially relative to MSY-BRP, otherwise management target (UdivUmsytouse, otherwise UdivUmgttouse)",dimensionless,dimensionless,UdivUmsypref-dimensionless
+FISHING MORTALITY,UdivUmsytouse,"General fishing mortality or exploitation rate time series relative to msy reference point (F/Fmsy, or ER/ERmsy otherwise)",dimensionless,dimensionless,UdivUmsytouse-dimensionless
+TIME UNITS,YEAR,YEAR,yr,years,YEAR-yr
+OTHER TIME SERIES DATA,Yield-SSB-1,Yield per SSB. Use only when there is more than 1 'final' model.,dimensionless,dimensionless,Yield-SSB-1-dimensionless
+OTHER TIME SERIES DATA,Yield-SSB-2,Yield per SSB. Use only when there is more than 1 'final' model.,dimensionless,dimensionless,Yield-SSB-2-dimensionless
+OTHER TIME SERIES DATA,Yield-SSB,Yield per SSB,dimensionless,dimensionless,Yield-SSB-dimensionless
+OTHER TIME SERIES DATA,Z,Total mortality from survey based assessments,1/T,per unit time,Z-1/T
+OTHER TIME SERIES DATA,Z,Total mortality from survey based assessments,1/yr,per year,Z-1/yr
+OTHER TIME SERIES DATA,Z-1,Total mortality alternate from survey based assessments,1/yr,per year,Z-1-1/yr
+OTHER TIME SERIES DATA,Z-2,Total mortality alternate from survey based assessments,1/yr,per year,Z-2-1/yr
+OTHER TIME SERIES DATA,Z-3,Total mortality alternate from survey based assessments,1/yr,per year,Z-3-1/yr
+OTHER TIME SERIES DATA,Z-4,Total mortality alternate from survey based assessments,1/yr,per year,Z-4-1/yr
