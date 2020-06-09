@@ -31,12 +31,14 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 - Sort through RAM data sets
 - Decide on variables
     - predator prey?
+    - areaid?
 - Do we want to poll species
   -  use K-means clustering as its own possibility for relationshops between datasets
   (other clustering algs: https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
   - look for shared trends
 - Environmental Data
-  - how to use
+  - do we want to use large scale and/or local environmental [indicies](https://psl.noaa.gov/data/climateindices/list/)
+  - sst/other physical ocean variables on area scale?
 - Time Series issues:
   - https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
   - https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/
