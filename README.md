@@ -71,7 +71,7 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
     
 - Bering Sea BASIS survey - targets age-0 pollock
 
-- SECM - southeast coastal monitoring of pink salmon - which spatial extents and temporal lags are important (includes zooplankton data)
+- SECM - southeast coastal monitoring of pink salmon - which spatial extents and temporal lags are important (includes zooplankton data); https://www.fisheries.noaa.gov/alaska/sustainable-fisheries/forecasting-pink-salmon-harvest-southeast-alaska
 
 - many gappy years 
 
