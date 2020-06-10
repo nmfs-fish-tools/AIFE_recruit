@@ -54,6 +54,10 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 ## Project TODO's and milestones
 
+- Look into larval data
+
+-
+
 ## Data sources
 
 - RAM legacy database - https://zenodo.org/record/3676088#.Xl7943BRf3g
@@ -62,6 +66,16 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 - EcoFOCI program - Bering Sea climate data and ichthyoplankton https://www.ecofoci.noaa.gov/data-links
 
+- EcoFOCI program has data from larval survey in GOA, goes back to 70's - targets pollock
+    - eco data like temp, chlorophyll, known gaps in chlorophyll coverage
+    
+- Bering Sea BASIS survey - targets pollock
+
+- SECOM - coastal monitoring of pink salmon - which spatial extents and temporal lags are important
+
+- many gappy years 
+
+- acfin/pacfin data - Jordan is working on integrating these streams into models
 
 ## References
 
