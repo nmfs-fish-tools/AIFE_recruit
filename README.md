@@ -69,9 +69,9 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 - EcoFOCI program has data from larval survey in GOA, goes back to 70's - targets pollock
     - eco data like temp, chlorophyll, known gaps in chlorophyll coverage
     
-- Bering Sea BASIS survey - targets pollock
+- Bering Sea BASIS survey - targets age-0 pollock
 
-- SECOM - coastal monitoring of pink salmon - which spatial extents and temporal lags are important
+- SECM - southeast coastal monitoring of pink salmon - which spatial extents and temporal lags are important (includes zooplankton data)
 
 - many gappy years 
 
