@@ -75,7 +75,7 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 - many gappy years 
 
-- acfin/pacfin data - Jordan is working on integrating these streams into models
+- akfin/pacfin data - Jordan is working on integrating environmental and fishery dependent data in the AKFIN/PacFIN database backends for easier modeling access by end users.
 
 ## References
 
