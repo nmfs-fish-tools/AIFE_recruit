@@ -35,10 +35,16 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 - Do we want to poll species
   -  use K-means clustering as its own possibility for relationshops between datasets
   (other clustering algs: https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
+  - Time series clustering and classification:
+    - http://www.rdatamining.com/examples/time-series-clustering-classification
+    - Dynamic Time Warping: http://dtw.r-forge.r-project.org/
   - look for shared trends
 - Environmental Data
   - do we want to use large scale and/or local environmental [indicies](https://psl.noaa.gov/data/climateindices/list/)
+    - Consider time lag when using large scale climate indices?
   - sst/other physical ocean variables on area scale?
+    - Chlorophyll a concentrations (food environment) if our focus is larvae or juveniles? 
+    - Limit the number of environmental variables? Adding one more environmental variable into the model needs at least 15 more observation points to support the analysis.
 - Time Series issues:
   - https://machinelearningmastery.com/time-series-forecasting-supervised-learning/
   - https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/
@@ -48,6 +54,8 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 - develop multiple models
     - one for data pooling
     - for comaprisons
+      - Models with/without consideration of environmental variables?
+      - Models that identify linear/nonlinear relationships between recruits and environmental variables?
     - for recruitment forecasting
 
 
