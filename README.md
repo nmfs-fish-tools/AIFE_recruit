@@ -85,6 +85,10 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 - akfin/pacfin data - Jordan is working on integrating environmental and fishery dependent data in the AKFIN/PacFIN database backends for easier modeling access by end users.
 
+- Calcofi ichthyoplankton ERDAP: https://coastwatch.pfeg.noaa.gov/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=calcofi
+
+- Puget sound herring: 
+
 ## References
 
 Rethinking forecasting: https://docs.google.com/document/d/1ob1zexI_558hzpEd12casTVtOsQnTnpEXCQmkaCy0z8/edit?usp=sharing
