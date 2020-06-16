@@ -57,6 +57,7 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
       - Models with/without consideration of environmental variables?
       - Models that identify linear/nonlinear relationships between recruits and environmental variables?
     - for recruitment forecasting
+      - Compare recruit forecasting from using observed recruits and using the stock assessment recruits output from RMA legacy database?
 
 
 
