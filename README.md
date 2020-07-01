@@ -65,7 +65,7 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 - Look into larval data
 
--
+- 6-7 data sets for west coast and alaska (sablefish, petrale, hake, pollock, pink salmon), compare to more traditional approaches, summarize the data.
 
 ## Data sources
 
@@ -88,7 +88,9 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
 
 - Calcofi ichthyoplankton ERDAP: https://coastwatch.pfeg.noaa.gov/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=calcofi
 
-- Puget sound herring: 
+- Puget sound herring: this is an egg survey
+
+- Comparison to different efforts to predict recruitment on west coast stuff - petrale sole, hake, sablefish
 
 ## References
 
