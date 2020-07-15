@@ -51,14 +51,17 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
   - use a step to cluster time series such as Kendall Seasonal trend analysis or similar
 
 - analysis and clean choice data sets
+    - set of Pacific data sets to compare to steig et al
+- add tidymodels to DSVM if not there already
 - develop multiple models
     - one for data pooling
-    - for comaprisons
+    - for comparisons
       - Models with/without consideration of environmental variables?
       - Models that identify linear/nonlinear relationships between recruits and environmental variables?
     - for recruitment forecasting
       - Compare recruit forecasting from using observed recruits and using the stock assessment recruits output from RMA legacy database?
-
+      - Jordan looking at gradient-boosting models for pink salmon using tidymodels package in R, uses age 1 outmigrating pinks
+        - temperature at point in the sound , shelf break, and central GOA from satellite data over month
 
 
 ## Project TODO's and milestones
