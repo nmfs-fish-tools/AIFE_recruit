@@ -62,6 +62,7 @@ https://nmfs-fish-tools.github.io/AIFE_recruit/
       - Compare recruit forecasting from using observed recruits and using the stock assessment recruits output from RMA legacy database?
       - Jordan looking at gradient-boosting models for pink salmon using tidymodels package in R, uses age 1 outmigrating pinks
         - temperature at point in the sound , shelf break, and central GOA from satellite data over month
+- What metrics to use? RMSE, MAE, R squared? 
 
 
 ## Project TODO's and milestones
