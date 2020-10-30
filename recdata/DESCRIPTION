@@ -1,14 +1,13 @@
 Package: recdata
-Title: What the Package Does (One Line, Title Case)
+Title: Exploring Recruitment Data Using ML
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Jordan",
+           family = "Watson"
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "jordan.watson@noaa.gov")
 Description: What the package does (one paragraph).
-License: What license it uses
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2, dplyr
+Imports: ggplot2, dplyr, processx, tidymodels, randomForestExplainer
