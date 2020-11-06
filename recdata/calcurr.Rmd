@@ -94,7 +94,7 @@ lm_spec <- linear_reg() %>%
   set_engine("lm")
 
 #  Use the workflows and tidymodels function from above to fit a model to the training data
-lm_fit <- fit_split(age.0~sp.bio+MLDegg, # specify formula
+lm_fit <- fit_split(age.0~DDpre+MLDegg, # specify formula
                     model=lm_spec, # specify model
                     split=pet_split) # specify data
 
@@ -293,7 +293,7 @@ final_rf %>%
   set_engine("ranger", importance = "permutation") %>%
   fit(age.0 ~ .,
     data = juice(pet_prep)) %>%
-  vip::vip(geom = "point")
+  vip::vip()
 
 
 rand_forest(trees=1911,mtry=7,min_n=18,mode="regression") %>% #rand_forest is a function in parsnip.
