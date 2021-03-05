@@ -52,9 +52,12 @@ modpetrale <- petrale %>%
   pivot_longer(
     cols=-c(year,sp.bio,age.0),
     values_to="covs_val")
+
+#save(modpetrale, "petrale_model_data.Rds")
 ```
 
-The time series for LST & CST are highly correlated, also Tpre.a and Tpre.b and DDegg and DDegg2. I remove correlated predictors below
+The time series for LST & CST are highly correlated, also Tpre.a and Tpre.b and DDegg and DDegg2. I remove correlated predictors below; dials::finalize? tune_grid <- parameters(min_n(),mtry())  %>%
+  dials::finalize(mtry(), x = baked_data[[1]]$baked_squid 
 ```{r}
 #Do regression with different environmental time series
 modpetrale %>% 
@@ -77,26 +80,30 @@ The best covariates are MLDegg (Mean mixed layer depth) and spawner precondition
 
 ```{r}
 wide_petrale <- modpetrale %>%
-  pivot_wider(names_from = name, values_from=covs_val) %>%
-  select(-c(year))
+  pivot_wider(names_from = name, values_from=covs_val) 
 
 set.seed(100)
 pet_split <- initial_split(wide_petrale) #By default, 3/4 data going into training; 1/4 test
 pet_train <- training(pet_split)
 pet_test <- testing(pet_split)
 
-pet_split # View the pet_split object.
-
 #Package not working for now, fix later
 source("R/fit_split.R")
-
 lm_spec <- linear_reg() %>% 
   set_engine("lm")
 
+pet_split # View the pet_split object.
 #  Use the workflows and tidymodels function from above to fit a model to the training data
 lm_fit <- fit_split(age.0~DDpre+MLDegg, # specify formula
                     model=lm_spec, # specify model
                     split=pet_split) # specify data
+
+
+
+
+
+
+
 
 lm_fit %>% 
   collect_metrics()
@@ -162,54 +169,7 @@ rf_model <- rand_forest(trees=2000,mtry=4,mode="regression") %>% #rand_forest is
   set_engine("ranger",importance="permutation") %>% # rand_forest is part of the ranger package. We have several options for importance measures.
   fit(age.0~.,data=juice(pet_prep))
 
-
-#library(randomForestExplainer)
-impt_frame<-measure_importance(rf_model$fit)
-
-#impt_frame %>% head()
-#  I like this plot as a way to illustate how several of the different RF hyperparameters fall out for different features.
-plot_multi_way_importance(impt_frame,no_of_labels = 6)
 ```
-
-So lots of other variables seem to be more important than spawning biomass. 
-
-```{r}
-modpetrale %>% 
-  group_by(name) %>%
-  do(glance(lm(age.0~covs_val,data=.))) %>%
-  bind_rows(modpetrale %>% 
-              dplyr::select(-c(covs_val,name)) %>%
-              distinct() %>% 
-              do(glance(lm(age.0~sp.bio,data=.))) %>%
-              mutate(name="sp.bio only")) %>%
-  arrange(-adj.r.squared) %>% 
-  mutate(across(where(is.double), round, 3)) %>% 
-  dplyr::select(-c(r.squared,logLik)) %>% 
-  data.frame %>%
-  kable()
-
-```
-
-
-```{r}
-plot_importance_ggpairs(impt_frame)
-```
-
-```{r}
-md_frame <- min_depth_distribution(rf_model$fit)
-
-plot_min_depth_distribution(md_frame, mean_sample = "top_trees")
-```
-```{r}
-fit_split(age.0 ~ ., 
-          model = rand_forest() %>% 
-            set_engine("ranger") %>% 
-            set_mode("regression"), 
-          split = pet_split) %>% 
-  collect_metrics()
-```
-
-Hack the leave one out validation
 
 ```{r}
 initial_split(wide_petrale, prop=0.96)
@@ -279,6 +239,13 @@ tune_res %>%
   labs(x = NULL, y = "rmse")
 ```
 
+
+```{r}
+md_frame <- min_depth_distribution(rf_model$fit)
+
+plot_min_depth_distribution(md_frame, mean_sample = "top_trees")
+```
+
 ```{r}
 best_rmse <- select_best(tune_res,"rmse")
 
@@ -307,5 +274,113 @@ final_rf %>%
     data = juice(pet_prep)) %>%
   vip::vip(geom = "point")
 
+```
+
+# Rolling stuff
+
+```{r}
+#create a rolling resample
+pet_rolling <- rolling_origin(wide_petrale, initial =10)
+
+rf_rolling <- rand_forest(trees=2000,mtry=4,mode="regression") %>%
+  set_engine("ranger", importance="permutation") %>%
+  fit(age.0~.,data=analysis(pet_rolling$splits[[20]]))
+
+
+
+#library(randomForestExplainer)
+impt_frame<-measure_importance(rf_rolling$fit)
+
+#impt_frame %>% head()
+#  I like this plot as a way to illustate how several of the different RF hyperparameters fall out for different features.
+plot_multi_way_importance(impt_frame,no_of_labels = 6)
+```
+
+Interesting, this makes sp.bio way more important
+
+```{r}
+modpetrale %>% 
+  group_by(name) %>%
+  do(glance(lm(age.0~covs_val,data=.))) %>%
+  bind_rows(modpetrale %>% 
+              dplyr::select(-c(covs_val,name)) %>%
+              distinct() %>% 
+              do(glance(lm(age.0~sp.bio,data=.))) %>%
+              mutate(name="sp.bio only")) %>%
+  arrange(-adj.r.squared) %>% 
+  mutate(across(where(is.double), round, 3)) %>% 
+  dplyr::select(-c(r.squared,logLik)) %>% 
+  data.frame %>%
+  kable()
+
+```
+
+
+```{r}
+plot_importance_ggpairs(impt_frame)
+```
+
+
+```{r}
+fit_split(age.0 ~ ., 
+          model = rand_forest() %>% 
+            set_engine("ranger") %>% 
+            set_mode("regression"), 
+          split = pet_rolling$splits[[1]]) %>% 
+  collect_metrics()
+```
+
+
+
+
+```{r}
+fit_splits <- function(mtry = 3, trees=5, split){
+  analysis_set_rf <- analysis(split)
+     
+    model <- 
+      rand_forest(mtry = mtry, trees = trees,mode="regression") %>%
+        set_engine("ranger") %>%
+        fit(age.0 ~ ., data = analysis_set_rf)
+
+    
+    assessment_set_rf <- assessment(split)
+
+    assessment_set_rf %>%
+      select(age.0, year) %>%
+      mutate(.pred = unlist(predict(model, new_data = assessment_set_rf))) %>% 
+      select(age.0, year, .pred)
+    
+}
+
+
+
+last_rmse <- delta_avg_rmse <- 100000
+mtry <- 3
+ntrees <- 250
+this_rmse <- rep(0,100)
+for(i in 1:100){
+#Fit the splits
+randomForest_results <- 
+  map_df(.x = pet_rolling$splits,
+         ~fit_splits(mtry = mtry, trees = ntrees, split = .x))
+
+p <-  ggplot(data=randomForest_results) +
+geom_line(aes(y=.pred,x=year)) +
+ geom_point(aes(y=age.0,x=year))
+p
+
+this_rmse[i] <- randomForest_results %>%
+  group_by(year) %>% 
+  rmse(age.0, .pred) %>% 
+  summarise(avg_rmse = mean(.estimate))
+  
+
+delta_avg_rmse <- last_rmse-unlist(this_rmse[i])
+last_rmse <- unlist(this_rmse[i])
+#mtry <- mtry + 1
+ntrees <- ntrees + 1
+}
+
+plot(unlist(this_rmse), type="l")
 ```
 
