@@ -356,7 +356,10 @@ fit_splits <- function(mtry = 3, trees=5, split){
 
 last_rmse <- delta_avg_rmse <- 100000
 mtry <- 3
-ntrees <- 250
+ntrees <- 500
+# Set-up a grid for mtry and min_n.
+mygrid <- expand.grid(mtry=2:35,min_n=2:45)
+
 this_rmse <- rep(0,100)
 for(i in 1:100){
 #Fit the splits
@@ -382,5 +385,117 @@ ntrees <- ntrees + 1
 }
 
 plot(unlist(this_rmse), type="l")
+```
+
+```{r}
+
+#  Specify the model for the mtry and min_n grid search. Hold trees constant.
+tune_spec <- rand_forest(mtry = tune(),
+                         trees = 500,
+                         min_n = tune()) %>% 
+  set_engine("ranger") %>% 
+  set_mode("regression")
+
+#  Setup parallel processing
+# all_cores <- parallel::detectCores(logical = FALSE)
+# cl <- makePSOCKcluster(all_cores)
+# registerDoParallel(cl)
+# 
+# clusterEvalQ(cl, .libPaths("C:/~/R/win-library/4.0/"))
+# 
+# mygrid <- expand.grid(mtry=2:35,min_n=2:45)
+# #  Run the grid search (this is the function that takes time)
+# tune_res <- tune_grid(
+#   tune_spec,
+#   pet_recipe,
+#   resamples = pet_rolling,
+#   grid = mygrid
+# )
+# 
+# #  Save it so you never have to do that again.
+# tune_res %>% 
+#   saveRDS("Hyperparameter_grid.RDS")
+
+tune_res <- readRDS("Hyperparameter_grid.RDS")
+
+#  Plot the contour of hyperparameters with their RMSE
+png("hyperparameter_gridsearch_contour.png",width=6,height=6,units="in",res=300)
+
+temp <- tune_res %>%
+  collect_metrics() %>% 
+  filter(.metric=="rmse") %>% 
+  arrange(mean)
+
+
+p0 <- 
+  ggplot(temp) +
+  geom_tile(aes(x=mtry,y=min_n,fill=mean)) +
+  geom_contour(aes(x=mtry,y=min_n,z=mean),color="black") +
+  scale_x_continuous(expand = c(0,0)) +
+  scale_y_continuous(expand = c(0,0)) +
+  scale_fill_gradientn("RMSE",colours = terrain.colors(10))
+p0
+
+#  Plot without contour lines, hyperparameters with their RMSE
+png("hyperparameter_gridsearch_nocontour.png",width=6,height=6,units="in",res=300)
+p<-
+  ggplot(temp) +
+  geom_tile(aes(x=mtry,y=min_n,fill=mean)) +
+  scale_x_continuous(expand = c(0,0)) +
+  scale_y_continuous(expand = c(0,0)) +
+  scale_fill_gradientn("RMSE",colours = terrain.colors(10))
+
+#  Extract the best hyperparamters based on RMSE
+select_best(tune_res,"rmse")
+
+best_vals <- select_best(tune_res, "rmse")
+
+tune_res %>%
+  collect_metrics() %>% 
+  filter(.metric=="rmse") %>% 
+  arrange(mean)
+
+#  Now use the best mtry and min_n values to see what effect the number of trees has.
+treevec <- seq(100,10000,by=100)
+
+#  Model spec with our best mtry and min_n, searching over the vector of trees
+tune_spec <- rand_forest(mtry = 2,
+                         trees = tune(),
+                         min_n = 10) %>%
+  set_engine("ranger") %>%
+  set_mode("regression")
+
+#  Probably don't need to call this again but doesn't seem to hurt.
+all_cores <- parallel::detectCores(logical = FALSE)
+cl <- makePSOCKcluster(all_cores)
+registerDoParallel(cl)
+
+clusterEvalQ(cl, .libPaths("C:/~/R/win-library/4.0/"))
+
+#  Run grid search over all tree numbers
+tune_res <- tune_grid(
+  tune_spec,
+  pet_recipe,
+  resamples = pet_rolling,
+  grid = treevec
+)
+
+# Save it!
+#tune_res %>% 
+#  saveRDS("tree_gridsearch.RDS")
+
+tune_res <- readRDS("tree_gridsearch.RDS")
+
+
+#  How's it look?
+tune_res %>%
+  collect_metrics() %>% 
+  filter(.metric=="rmse") %>% 
+  arrange(mean) %>% 
+  ggplot(aes(trees,mean)) + 
+  geom_point()
+
+
+
 ```
 
